@@ -1,4 +1,3 @@
-# Слито в https://t.me/HACKER_PHONE_VIP
 
 import telebot
 import random
@@ -6,11 +5,11 @@ from telebot import types
 from keyboard import glawnaya, nakrutka, profl, popol, popol22, opl, instn, instnpdp, instnlike, instnvid, tgglaw, tgpdpd, nggrpdpd, tgview, vkglaw, vkpdp, vklike, vlview, ttglaw, ttpdp, ttlike, ttview, ytglaw, ytview, ytlike, ytpdpd, stimglaw, stimpdp, stimotzv, fbglaw, fbpdpgr, fblike, fbpros, okglaw, okpdp, oklike, okview, yadview, yadlike, yadpdp, yadglaw
 from config import Admin, token, qiwi, yandex_money, payeer
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 bot = telebot.TeleBot(token)
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 ############# СТАРТ #############
 @bot.message_handler(commands=['start'])
@@ -21,7 +20,7 @@ def send_welcome(message):
 🌴 Ты находишься в лучшем боте для накрутки!</b>''', reply_markup=glawnaya(), parse_mode='html')
 #################################
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 ######### МЕНЮ + ПРОФИЛЬ ########
 @bot.message_handler(content_types=['text'])
@@ -47,7 +46,6 @@ def handler(message):
 💲 <b>Ваш баланс на тикущий момент состовляет:</b> <code>0,00 ₽</code>
 ➖➖➖➖➖➖➖''', reply_markup=popol(), parse_mode='html')
 
-# Слито в https://t.me/HACKER_PHONE_VIP
 
     if message.text == "🌐 Общая статистика":
         bot.send_message(message.chat.id, '''<b>
@@ -63,7 +61,7 @@ def handler(message):
 🌸 <b>Бот запущен:</b> <code>16.09.2021</code>
 ➖➖➖➖➖➖➖''', parse_mode='html')
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
     if message.text == "🦎 Статистика за сегодня":
         bot.send_message(message.chat.id, '''<b>
@@ -77,7 +75,7 @@ def handler(message):
 <b>🦋 Новых пользователей за сегодня:</b> <code>''' + str(random.randint(23, 112)) + '''</code>
 ➖➖➖➖➖➖➖''', parse_mode='html')
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
     if message.text == "🥝 Киви":
         bot.send_message(message.chat.id, """➖➖➖➖➖➖➖➖➖
@@ -92,7 +90,7 @@ def handler(message):
 
 3️⃣ <b>После оплаты нажмите на кнопку «💎 Я оплатил»!</b>""", reply_markup=opl(), parse_mode='html')
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
     if message.text == "💵 ЮMoney":
         bot.send_message(message.chat.id, """➖➖➖➖➖➖➖➖➖
@@ -107,7 +105,7 @@ def handler(message):
 
 3️⃣ <b>После оплаты нажмите на кнопку «💎 Я оплатил»!</b>""", reply_markup=opl(), parse_mode='html')
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
     if message.text == "💶 PAYEER":
         bot.send_message(message.chat.id, """➖➖➖➖➖➖➖➖➖
@@ -132,7 +130,7 @@ def handler(message):
 🎛Если вы оплатили, но пишет, что платеж не пришёл, то подождите 10-30 минут!</b>""", parse_mode='html')
 ##################################
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 ######## ЦЕНЫ НА НАКРУТКУ ########
     if message.text == "100 (7₽)":
@@ -254,12 +252,10 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>⚠️ Недостаточно денег на балансе!</b>', reply_markup=popol(), parse_mode='html')
 ##################################
 
-# Слито в https://t.me/HACKER_PHONE_VIP
-
 ######## КНОПКИ СОЦ.СЕТЕЙ ########
     if message.text == "💲 Пополнить":
         bot.send_message(message.chat.id, '<b>💷 Выберете удобный способ пополнения!</b>', reply_markup=popol22(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "Instagram":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=instn(), parse_mode='html')
     if message.text == "👥 Подписчики (Inst)":
@@ -268,7 +264,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=instnlike(), parse_mode='html')
     if message.text == "💈 Просмотры (Inst)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=instnvid(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "Telegram":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=tgglaw(), parse_mode='html')
     if message.text == "👥 Подписчики канала (TG)":
@@ -277,7 +273,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите участников!</b>', reply_markup=nggrpdpd(), parse_mode='html')
     if message.text == "💈 Просмотры (TG)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=tgview(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "VK":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=vkglaw(), parse_mode='html')
     if message.text == "👥 Подписчики (VK)":
@@ -286,7 +282,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=vklike(), parse_mode='html')
     if message.text == "💈 Просмотры (VK)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=vlview(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "TikTok":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=ttglaw(), parse_mode='html')
     if message.text == "👥 Подписчики (TT)":
@@ -295,7 +291,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=ttlike(), parse_mode='html')
     if message.text == "💈 Просмотры (TT)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=ttview(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "YouTube":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=ytglaw(), parse_mode='html')
     if message.text == "👥 Подписчики (YT)":
@@ -304,14 +300,14 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=ytlike(), parse_mode='html')
     if message.text == "💈 Просмотры (YT)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=ytview(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "Steam":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=stimglaw(), parse_mode='html')
     if message.text == "👥 Подписчики (Steam)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите подписчиков!</b>', reply_markup=stimpdp(), parse_mode='html')
     if message.text == "📣 Отзывы (Steam)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=stimotzv(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "Facebook":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=fbglaw(), parse_mode='html')
     if message.text == "👥 Участники группы (FB)":
@@ -320,7 +316,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=fblike(), parse_mode='html')
     if message.text == "💈 Просмотры (FB)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=fbpros(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "Одноклассники":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=okglaw(), parse_mode='html')
     if message.text == "👥 Подписчики (OK)":
@@ -329,7 +325,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=oklike(), parse_mode='html')
     if message.text == "💈 Просмотры (OK)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=okview(), parse_mode='html')
-# Слито в https://t.me/HACKER_PHONE_VIP
+
     if message.text == "Яндекс.Дзен":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=yadglaw(), parse_mode='html')
     if message.text == "👥 Подписчики (Я.Д)":
@@ -340,7 +336,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите просмотров!</b>', reply_markup=yadview(), parse_mode='html')
 ##################################
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 ########## КНОПКИ НАЗАД ##########
     if message.text == "На главную ↩️":
@@ -394,7 +390,7 @@ def handler(message):
         bot.send_message(message.chat.id, '<b>⛩ Вы вернулись назад!</b>', reply_markup=yadglaw(), parse_mode='html')
 ##################################
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 ############# ИНЛАЙН #############
 @bot.callback_query_handler(func=lambda call: True)
@@ -407,7 +403,5 @@ def callback_inline(call):
        print(repr(e))
 ##################################
 
-# Слито в https://t.me/HACKER_PHONE_VIP
 
 bot.infinity_polling()
-# Слито в https://t.me/HACKER_PHONE_VIP
