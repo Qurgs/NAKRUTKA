@@ -294,7 +294,7 @@ def handler(message):
 
     if message.text == "YouTube":
         bot.send_message(message.chat.id, '<b>🔻 Выберите что будем накручивать!</b>', reply_markup=ytglaw(), parse_mode='html')
-    if message.text == "👥 Подписчики (YT)":
+     message.text == "👥 Подписчики (YT)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите подписчиков!</b>', reply_markup=ytpdpd(), parse_mode='html')
     if message.text == "❤️ Лайки (YT)":
         bot.send_message(message.chat.id, '<b>🔻 Выберите сколько хотите лайков!</b>', reply_markup=ytlike(), parse_mode='html')
