@@ -24,7 +24,7 @@ def send_welcome(message):
 
 ######### МЕНЮ + ПРОФИЛЬ ########
 @bot.message_handler(content_types=['text'])
-def handler(message):
+def hand(message):
     if message.text == "⚡️ Накрутка":
         bot.send_message(message.chat.id, '<b>🔻 Выбери, на какой сервис тебе нужна накрутка!</b>', reply_markup=nakrutka(), parse_mode='html')
     if message.text == "🍩 Личный кабинет":
