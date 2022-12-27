@@ -1,5 +1,5 @@
 
-
+#t.me/lspwncvv
 from telebot import types
 
 
