@@ -1,8 +1,8 @@
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 from telebot import types
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def glawnaya():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -14,7 +14,7 @@ def glawnaya():
     mm.add(button2)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def nakrutka():
     nakr = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -35,7 +35,7 @@ def nakrutka():
     nakr.add(otv10)
     return nakr
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def profl():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -51,7 +51,7 @@ def profl():
     mm.add(otv13)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def popol():
     otvet = types.InlineKeyboardMarkup(row_width=2)
@@ -61,7 +61,7 @@ def popol():
     otvet.add(button1)
     return otvet
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def popol22():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -76,7 +76,7 @@ def popol22():
     mm.add(msm6)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def opl():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -88,7 +88,7 @@ def opl():
     mm.add(msm2)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def instn():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -102,7 +102,7 @@ def instn():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def instnpdp():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -116,7 +116,7 @@ def instnpdp():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def instnlike():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -130,7 +130,7 @@ def instnlike():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def instnvid():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -144,7 +144,7 @@ def instnvid():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def tgglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -158,7 +158,7 @@ def tgglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def tgpdpd():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -172,7 +172,7 @@ def tgpdpd():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def nggrpdpd():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -186,7 +186,7 @@ def nggrpdpd():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def tgview():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -200,7 +200,7 @@ def tgview():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def vkglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -214,7 +214,7 @@ def vkglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def vkpdp():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -228,7 +228,7 @@ def vkpdp():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def vklike():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -242,7 +242,7 @@ def vklike():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def vlview():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -256,7 +256,7 @@ def vlview():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ttglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -270,7 +270,7 @@ def ttglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ttpdp():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -284,7 +284,7 @@ def ttpdp():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ttlike():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -298,7 +298,7 @@ def ttlike():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ttview():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -312,7 +312,7 @@ def ttview():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ytglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -326,7 +326,7 @@ def ytglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ytpdpd():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -340,7 +340,7 @@ def ytpdpd():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ytlike():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -354,7 +354,7 @@ def ytlike():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def ytview():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -368,7 +368,7 @@ def ytview():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def stimglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -381,7 +381,7 @@ def stimglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def stimpdp():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -395,7 +395,7 @@ def stimpdp():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def stimotzv():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -409,7 +409,7 @@ def stimotzv():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def fbglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -423,7 +423,7 @@ def fbglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def fbpdpgr():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -436,7 +436,7 @@ def fbpdpgr():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def fblike():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -450,7 +450,7 @@ def fblike():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def fbpros():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -464,7 +464,7 @@ def fbpros():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def okglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -478,7 +478,7 @@ def okglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def okpdp():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -492,7 +492,7 @@ def okpdp():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def oklike():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -506,7 +506,7 @@ def oklike():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def okview():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -520,7 +520,7 @@ def okview():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def yadglaw():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -534,7 +534,7 @@ def yadglaw():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def yadpdp():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -548,7 +548,7 @@ def yadpdp():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def yadlike():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -562,7 +562,7 @@ def yadlike():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+
 
 def yadview():
     mm = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -576,4 +576,4 @@ def yadview():
     mm.add(msm4)
     return mm
 
-# Слито в https://t.me/HACKER_PHONE_VIP
+# Слито в https:
