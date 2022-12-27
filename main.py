@@ -77,7 +77,7 @@ def handler(message):
 
 
 
-    if message.text == "🥝 Киви":
+    if message. == "🥝 Киви":
         bot.send_message(message.chat.id, """➖➖➖➖➖➖➖➖➖
 🥝<b>СПОСОБ ОПЛАТЫ ЧЕРЕЗ QIWI</b>🥝
 ➖➖➖➖➖➖➖➖➖
